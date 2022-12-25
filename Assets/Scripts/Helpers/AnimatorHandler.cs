@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -7,7 +5,7 @@ public class AnimatorHandler : MonoBehaviour
 {
     private Animator m_Animator;
     private NavMeshAgent m_Agent;
-    
+
     // Start is called before the first frame update
     void Start()
     {
