@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +17,7 @@ public class TransporterUnit : Unit
         base.GoTo(position);
         m_CurrentTransportTarget = null;
     }
-    
+
     protected override void BuildingInRange()
     {
         if (m_Target == Base.Instance)
@@ -43,7 +42,7 @@ public class TransporterUnit : Unit
             }
         }
     }
-    
+
     //Override all the UI function to give a new name and display what it is currently transporting
     public override string GetName()
     {

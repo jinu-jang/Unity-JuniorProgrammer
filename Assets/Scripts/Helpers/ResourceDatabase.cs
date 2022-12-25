@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +7,7 @@ public class ResourceDatabase : ScriptableObject
     public List<ResourceItem> ResourceTypes = new List<ResourceItem>();
 
     private Dictionary<string, ResourceItem> m_Database;
-    
+
     public void Init()
     {
         m_Database = new Dictionary<string, ResourceItem>();
